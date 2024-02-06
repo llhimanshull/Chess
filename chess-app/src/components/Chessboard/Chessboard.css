@@ -1,0 +1,25 @@
+#chessboard{
+    display: grid;
+    grid-template-columns:repeat(8 , 81.25px) ;
+    grid-template-rows: repeat(8 , 81.25px);
+    width: 650px;
+    height: 650px;
+    background-color: rgba(42, 158, 235, 0.745);
+}
+#chessboard .tile{
+    width: 81.25px;
+    height: 81.25px;
+}
+
+#chessboard .white-tile{
+    width: 81.25px;
+    height: 81.25px;
+    background-color: rgb(159, 106, 14);
+    box-shadow: 0px 0px 10px rgb(83, 55, 8);
+}
+#chessboard .black-tile{
+    width: 81.25px;
+    height: 81.25px;
+    background-color: rgb(80, 78, 78);
+    box-shadow: 0px 0px 10px rgb(40, 38, 38);
+}
